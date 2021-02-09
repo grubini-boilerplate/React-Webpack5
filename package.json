@@ -4,6 +4,9 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
+    "start": "webpack --watch",
+    "start:dev": "npx webpack serve",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,6 +15,36 @@
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "babel-loader": "^8.2.1",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "babel-plugin-styled-components": "^1.12.0",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^5.0.0-alpha.3",
+    "path": "^0.12.7",
+    "postcss-loader": "^4.0.4",
+    "postcss-preset-env": "^6.7.0",
+    "regenerator-runtime": "^0.13.7",
+    "style-loader": "^2.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
+  },
   "bugs": {
     "url": "https://github.com/grubini-fullstack/XYPanel-FrontEnd/issues"
   },

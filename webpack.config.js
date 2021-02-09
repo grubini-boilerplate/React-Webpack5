@@ -1,8 +1,8 @@
-const resolve = require('path').resolve;
+const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const SRC_DIR = resolve(__dirname, './src/index.js');
-const PUBLIC_DIR = resolve(__dirname, './public');
+const SRC_DIR = path.resolve(__dirname, './src/index.js');
+const PUBLIC_DIR = path.resolve(__dirname, './public');
 
 module.exports = {
   entry: ['@babel/polyfill', SRC_DIR],
@@ -46,7 +46,7 @@ module.exports = {
       favicon: false,
       showErrors: true,
       cache: true,
-      template: resolve(__dirname, 'src', 'index.html'),
+      template: path.resolve(__dirname, 'src', 'index.html'),
       filename: 'index.html'
     }),
     new webpack.HotModuleReplacementPlugin()

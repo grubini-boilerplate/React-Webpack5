@@ -10,7 +10,7 @@ class App extends Component {
     render() {
         return (
             <AppStyles>
-                <h1>XY Styles</h1>
+                <h1>XY Panel</h1>
             </AppStyles>
         )
     }

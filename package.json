@@ -1,5 +1,5 @@
 {
-  "name": "xypanel-frontend",
+  "name": "appstyles-frontend",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -46,7 +46,7 @@
     "styled-components": "^5.2.1"
   },
   "bugs": {
-    "url": "https://github.com/grubini-fullstack/XYPanel-FrontEnd/issues"
+    "url": "https://github.com/grubini-fullstack/React-Webpack5/issues"
   },
-  "homepage": "https://github.com/grubini-fullstack/XYPanel-FrontEnd#readme"
+  "homepage": "https://github.com/grubini-fullstack/React-Webpack5#readme"
 }
